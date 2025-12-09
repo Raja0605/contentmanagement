@@ -1,0 +1,130 @@
+/* General container styling */
+.video-editor-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Back button styling */
+  .back-button {
+    border: none;
+    background-color: transparent;
+    
+    cursor: pointer;
+  }
+  
+  .back-icon {
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .back-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Form container */
+  .video-form {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Labels */
+  .video-form label {
+    display: block;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  /* Input fields */
+  .video-form input,
+  .video-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Buttons */
+  .video-button {
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .add-video-button {
+    background-color: #007bff;
+  }
+  
+  .add-video-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .update-video-button {
+    background-color: #ffc107;
+  }
+  
+  .update-video-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .submit-video-button {
+    background-color: #28a745;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .submit-video-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Video list */
+  .video-list {
+    margin-bottom: 20px;
+  }
+  
+  .video-list h2 {
+    text-align: center;
+  }
+  
+  .video-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-item strong {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  /* Edit button */
+  .edit-button {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  

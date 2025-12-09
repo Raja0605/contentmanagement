@@ -1,0 +1,147 @@
+/* User Page Container */
+.user-container {
+  width: 100%;
+  /* margin: 20px auto; */
+  padding: 20px;
+  background-image: url(/public/fire1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  overflow: hidden;
+  min-height: 100vh;
+  
+}
+
+/* Back Button Styling */
+.back-btn {
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Search Bar & Add User Button */
+.user-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  padding: 0px;
+  background:transparent;
+  border-radius: 8px;
+}
+
+.search-bar {
+  width: 30%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid brown;
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+  position: relative;
+  /* left: 34%; */
+}
+
+.adduser {
+  padding: 10px 20px;
+  background-color: #2575fc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Table Styling */
+.user-table-container {
+  width: 100%;
+  overflow-x: auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 3%;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #333;
+  border-radius: 8px;
+}
+
+/* Table Header */
+.user-table th {
+  background-color: #1C737D;
+  color: white;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+  text-align: left;
+}
+
+/* Table Rows */
+.user-table td {
+ font-size: 12px;
+ align-items: center;
+ padding:0 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Colors */
+.user-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.user-table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+
+/* Hover Effect */
+.user-table tbody tr:hover {
+  background: #f1f1f1;
+  transition: background 0.3s ease-in-out;
+}
+
+/* No Data Message */
+.no-data {
+  text-align: center;
+  padding: 15px;
+  color: #888;
+}
+
+/* Status Dot Styling */
+.active-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.inactive-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.search-icons{
+  font-size: 30px;
+  color: black;
+  position: relative;
+  right: 33%;
+}

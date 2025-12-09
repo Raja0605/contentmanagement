@@ -1,0 +1,60 @@
+.memes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.meme-card {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    background-color: #f9f8fc;
+    padding: 15px;
+    margin-top: 8%;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.meme-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.meme-image {
+    display: block;
+    border-radius: 5px;
+}
+
+.meme-caption {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.finish-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.finish-btn:hover {
+    background-color: #45a049;
+}
+
+.no-memes, .quiz-null {
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+}

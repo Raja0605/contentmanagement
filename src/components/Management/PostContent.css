@@ -1,0 +1,96 @@
+/* .postcon{
+    background-image: url(/public/fire1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .back-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .back-icon {
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: #F8F8F8;
+  }
+  
+  .meme-container {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .meme-input-container {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+  }
+  

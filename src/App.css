@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F8F8F8;
+}
+
+.main {
+  display: flex;
+ 
+}
+
+.content {
+  flex: 1;
+  margin-left: 200px;
+  /* padding: 20px; */
+  overflow-y: auto;
+  
+}

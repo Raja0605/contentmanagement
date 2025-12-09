@@ -1,0 +1,100 @@
+
+.myimage{
+  height: 50px;
+  width: 100px;
+ 
+}
+.page{
+height:100%;
+background-image: url(/public/Untitled.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+backdrop-filter: blur(20px);
+overflow: hidden;
+}
+.container{
+  opacity: 100px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(184, 245, 240);
+  margin-top: 0%;
+box-shadow: 3px 3px;
+position: relative;
+left: 0%;
+}
+.input{
+  border-radius: 10px;
+}
+.input .icon{
+position: absolute;
+right: 30px;
+top: 32%;
+transform: translate(-50);
+display: inline-block;
+font-size: 20px;
+
+
+}
+.ioIosLock{
+position: absolute;
+right: 28px;
+top: 52%;
+transform: translate(-50);
+display: inline-block;
+font-size: 27px;
+}
+
+
+
+.button{
+  width: auto;
+
+}
+.log{
+
+  padding: 10px 10px;
+    padding-bottom: 10px;
+  padding-bottom: 5px;
+  font-size: 27px;
+  color: black;
+}
+.contents{
+  font-size: 30px;
+  border-radius: 4px;
+  /* margin-top: 80px; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  margin-left: 0%;
+  text-decoration: 1px none black;
+  margin-bottom: 10px;
+  background-color: transparent;
+  position: absolute;
+  left: 32%;
+  top: 1%;
+  backdrop-filter: blur(4px);
+}
+
+
+.image{
+  height: 50px;
+width:70px;
+border-radius: 0px;
+position: relative;
+right: 10%;
+}
+.button:hover{
+background-color: rgb(89, 168, 179);
+font-size: 16px;
+font-weight: bold;
+text-decoration: underline;
+/* border-radius: 10px 0 10px 0; */
+}
+.reg:hover{
+
+  color: deepskyblue;
+
+}
+.logimage{
+  position: relative;
+  top: 20%;
+}

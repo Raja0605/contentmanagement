@@ -1,0 +1,285 @@
+/* Global Styles */
+* {
+    
+  padding: 0;
+  overflow: auto;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  
+}
+.cat-page{
+  background-image: url(/public/fire1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Add Category Form Styles */
+.add-table {
+ 
+  position: absolute;
+  background-color: papayawhip;
+  color: black;
+  height: 440px;
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  z-index: 1001;
+  margin-top: 230px;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 10px rgba(230, 219, 219, 0.3);
+}
+
+.cathead {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.add-table table {
+  width: 100%;
+}
+
+.add-table table tr th,
+.add-table table tr td {
+  
+  color:black;
+  padding: 10px;
+  text-align: left;
+  vertical-align:baseline;
+  
+}
+
+input,
+select {
+
+  padding: 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+select {
+  appearance: none;
+}
+.btn-container{
+ 
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+.sub-btn,
+.cal-btn {
+  display: inline-block;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  
+  margin-top: 15px;
+  
+}
+
+.sub-btn {
+  background-color: #0d6efd;
+  margin-right: 10px;
+  
+  width:140px;
+}
+
+.cal-btn {
+  background-color: #dc3545;
+  width:140px;
+}
+
+.sub-btn:hover {
+  background-color: #1abc9c;
+}
+
+.cal-btn:hover {
+  background-color: #c82333;
+}
+
+/* Add Button Style */
+/* .add-btn {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+} */
+
+.catsearchbar{
+  border: blue solid;
+  margin-left: 20px;
+  margin-right: 50px;
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.btna {
+  color: white;
+  background-color: blue;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 300px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+
+.btna:hover {
+  background-color: blue;
+  opacity: 0.8;
+}
+
+/* Output Table Container */
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  /* background-color: #f4f4f4; */
+}
+
+/* Table Styles */
+.output-table {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.output-tables {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+}
+
+.output-tables thead th {
+  background-color:#1C737D;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+  color: white;
+}
+
+.output-tables tbody tr {
+  border-bottom: 1px solid #dee2e6;
+  color: #212529;
+}
+
+.output-tables tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.output-tables tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.output-tables td {
+  padding: 2%;
+  text-align: center;
+}
+
+/* Action Buttons */
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.cl-edit{
+  background-color: #f39c12;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+.ct-del{
+  background-color: red;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .add-table {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .table-container {
+    padding: 10px;
+  }
+
+  .output-tables th,
+  .output-tables td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .btna {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  form{
+      margin: 0 auto;
+      overflow: auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  .description{
+      padding: 20px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  }
+
+  table-content{
+    
+      /* background-color: #4caf50; */
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      width:100px;
+      height:50px
+  }
+}
